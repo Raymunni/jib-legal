@@ -1,6 +1,6 @@
 # Terms of Service for Jib
 
-**Last updated: 23 August 2026**
+**Last updated: 20 September 2026**
 
 > **Before you publish this:** this is a starting draft written specifically around what Jib does today, including its AI-powered planning features. It is not a substitute for review by a qualified lawyer before you launch publicly, particularly around the liability and disclaimer sections (Section 5) and consumer guarantee law in Australia (which can't be excluded by a contract, only appropriately limited). Please have it reviewed, and fill in the bracketed placeholders.
 
@@ -14,7 +14,7 @@ Jib is a home improvement companion app. It helps you plan, track, and manage ho
 
 ## 2. Accounts
 
-You can use core features of the App without an account, with your data stored only on your device. Signing in with Google enables cloud sync, so your data is available across devices. You're responsible for maintaining the security of your Google account and for all activity that occurs through it.
+You can use core features of the App without an account, with your data stored only on your device. Signing in — with Google, Apple, or an email/password account you create in the App — enables cloud sync, so your data is available across devices. You're responsible for maintaining the security of your account (and, if applicable, your Google or Apple account) and for all activity that occurs through it.
 
 ## 3. Your content
 
@@ -49,7 +49,7 @@ To the maximum extent permitted by law, our total liability to you for any claim
 
 ## 6. Subscriptions and payments
 
-Some features may require a paid subscription in the future. [Fill in once billing is actually live: pricing, billing cycle, auto-renewal terms, cancellation process, refund policy — these should mirror whatever Google Play/Apple's in-app purchase terms require.] Until then, all features currently offered for free remain free, and no payment information is collected by us directly.
+Some features require a paid subscription (or one-off AI credit top-up), billed and processed entirely through Google Play or the Apple App Store — we never collect or store your payment details directly. Subscriptions auto-renew at the price and interval shown at purchase unless cancelled before the renewal date, through your Google Play or Apple ID account settings, not within the App itself. Refunds are handled under Google Play's and Apple's own refund policies, not by us directly. Cancelling a subscription stops future renewal but doesn't retroactively refund the current billing period unless the relevant store's policy says otherwise.
 
 ## 7. Acceptable use
 
@@ -67,7 +67,7 @@ The App itself — its design, code, and branding — is owned by us and protect
 
 ## 9. Third-party services
 
-The App relies on third-party services, including Google Firebase (authentication, data storage, sync), Anthropic (AI features), and Google Places/geocoding (location features). Your use of the App is also subject to those providers' own terms where applicable. We're not responsible for the availability or performance of third-party services outside our control.
+The App relies on third-party services, including Google Firebase (authentication, data storage, sync), Apple (Sign in with Apple), Anthropic (AI features), Google Places/geocoding (location features), and RevenueCat (subscription and purchase management). Your use of the App is also subject to those providers' own terms where applicable. We're not responsible for the availability or performance of third-party services outside our control.
 
 ## 10. Termination
 
@@ -83,4 +83,4 @@ These Terms are governed by the laws of Queensland, Australia, without regard to
 
 ## 13. Contact us
 
-Questions about these Terms: ommyhub@gmail.com.
+Questions about these Terms: tomhorsey93@gmail.com.

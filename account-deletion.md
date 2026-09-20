@@ -18,13 +18,13 @@ Deleting your account permanently removes, both from your device and from our cl
 - All photos (house, space, and job photos, including before/after pairs)
 - Your shopping lists and inventory
 - Your AI-generated home summary and job plans
-- Your account's association with your Google Sign-In (if you signed in)
+- Your account's association with your sign-in method (Google, Apple, or email/password), if you signed in
 
 This action cannot be undone.
 
 ## What isn't deleted
 
-Deleting your account through Jib removes all of Jib's own data about you. It does not delete or affect your underlying Google Account itself — Jib uses Google Sign-In only to authenticate you and sync your data, and doesn't have the ability to delete a Google Account, only the data Jib itself stored.
+Deleting your account through Jib removes all of Jib's own data about you. It does not delete or affect your underlying Google Account or Apple ID — Jib uses Google or Apple Sign-In only to authenticate you and sync your data, and doesn't have the ability to delete a Google Account or Apple ID, only the data Jib itself stored. If you signed in with email/password, that account (email + password) is also deleted as part of this.
 
 ## No account? No problem
 
@@ -32,4 +32,4 @@ If you use Jib without signing in, all your data already lives only on your devi
 
 ## Questions
 
-Contact: ommyhub@gmail.com
+Contact: tomhorsey93@gmail.com

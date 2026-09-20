@@ -1,6 +1,6 @@
 # Privacy Policy for Jib
 
-**Last updated: 23 August 2026**
+**Last updated: 20 September 2026**
 
 This policy explains what information Jib ("the App", "we", "us") collects, how it's used, and the choices you have. It applies to the Jib mobile application, published under the package name `com.jibjobs.app`.
 
@@ -10,12 +10,16 @@ This policy explains what information Jib ("the App", "we", "us") collects, how 
 
 ## 1. Who we are
 
-Jib is developed by Thomas Horsey. For any privacy questions or requests, contact: ommyhub@gmail.com.
+Jib is developed by Thomas Horsey. For any privacy questions or requests, contact: tomhorsey93@gmail.com.
 
 ## 2. Information we collect
 
 ### 2.1 Account information
-If you sign in with Google, we receive your name, email address, and profile photo from Google, and a unique account identifier (via Firebase Authentication). You can also use the app without signing in; in that case your data stays only on your device and is not backed up to the cloud.
+Jib offers three ways to sign in: Google, Apple, and email/password.
+- **Google or Apple Sign-In:** we receive your name and email address from Google or Apple (and a profile photo, for Google), and a unique account identifier (via Firebase Authentication).
+- **Email/password:** we receive the email address and password you provide; the password is stored and verified by Firebase Authentication, not by us directly, and we never see it in plain text.
+
+You can also use the app without signing in at all; in that case your data stays only on your device and is not backed up to the cloud.
 
 ### 2.2 Content you create
 This is the core of what the app stores, and it can include:
@@ -29,8 +33,8 @@ This is the core of what the app stores, and it can include:
 - Basic device and app information necessary for the app to function (e.g. crash logs, if enabled)
 - Location data, only if you grant location permission, and only to resolve your suburb for climate/planning context — we do not track or store precise ongoing location
 
-### 2.4 Information we do not collect
-We do not collect payment card details directly (any future subscription payments would be processed by Google Play or Apple, under their own privacy terms, not stored by us). We do not knowingly collect information from children — see Section 9.
+### 2.4 Purchases and subscriptions
+If you buy a premium subscription or AI credit top-up, the purchase itself is handled entirely by Google Play or the Apple App Store — we never see or store your payment card details. To manage entitlements (what you've bought and whether it's still active), we use RevenueCat, which receives your purchase/subscription status and a device identifier from the App Store or Play Store, not your card details. See [RevenueCat's Privacy Policy](https://www.revenuecat.com/privacy) for details. We do not knowingly collect information from children — see Section 9.
 
 ## 3. How we use your information
 
@@ -52,15 +56,17 @@ Jib uses Anthropic's Claude API to power job planning, step generation, shopping
 ## 5. Where your information is stored
 
 - **On your device:** house, space, job, and shopping data, and photos, are stored locally on your device at all times.
-- **In the cloud (only if signed in):** if you sign in with Google, this same data is also synced to Google Firebase services (Firestore for structured data, Firebase Storage for photos) so it's available if you switch devices or reinstall the app. This data is associated with your account and is not accessible to other users.
+- **In the cloud (only if signed in):** if you sign in — with Google, Apple, or email/password — this same data is also synced to Google Firebase services (Firestore for structured data, Firebase Storage for photos) so it's available if you switch devices or reinstall the app. This data is associated with your account and is not accessible to other users.
 - **Location/suburb lookups:** resolving a suburb from your device location or a text search uses Google's geocoding and Places services, and (for AI-assisted matching) Anthropic's API. Neither retains this beyond what's needed to return a result.
 
 ## 6. Sharing your information
 
 We don't sell or rent your information. We share it only with the service providers necessary to run the app:
-- **Google Firebase** (Authentication, Firestore, Storage) — to sign you in and sync your data
+- **Google Firebase** (Authentication, Firestore, Storage) — to sign you in (including via Google or Apple) and sync your data
+- **Apple** — only if you choose Sign in with Apple, to authenticate you
 - **Anthropic** — to power AI planning features, as described in Section 4
 - **Google Places / geocoding services** — to resolve suburb and location information
+- **RevenueCat** — to manage subscription and credit purchases, as described in Section 2.4
 
 We may also disclose information if required by law, or to protect the rights, safety, or property of Jib, our users, or others.
 
@@ -91,4 +97,4 @@ We may update this policy from time to time. Material changes will be reflected 
 
 ## 12. Contact us
 
-Questions about this policy or your data: ommyhub@gmail.com.
+Questions about this policy or your data: tomhorsey93@gmail.com.
