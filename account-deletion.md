@@ -32,4 +32,4 @@ If you use Jib without signing in, all your data already lives only on your devi
 
 ## Questions
 
-Contact: tomhorsey93@gmail.com
+Contact: hello@jibapp.xyz

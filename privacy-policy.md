@@ -1,16 +1,15 @@
 # Privacy Policy for Jib
 
-**Last updated: 20 September 2026**
+**Last updated: 26 September 2026**
 
-This policy explains what information Jib ("the App", "we", "us") collects, how it's used, and the choices you have. It applies to the Jib mobile application, published under the package name `com.jibjobs.app`.
+This policy explains what information Jib ("the App", "we", "us") collects, how it's used, and the choices you have. It applies to the Jib mobile application, published under the package name `com.jibjobs.app`, and to Jib on the web at [jibapp.xyz/web](https://jibapp.xyz/web/), which lets you sign in and manage the same account from a browser.
 
-> **Before you publish this:** this document is a starting draft, written to reflect exactly what the app currently does. It is not a substitute for review by a qualified lawyer, particularly around Australian Privacy Principles (APP) compliance, GDPR if you have EU users, and any requirements specific to app store submission (Google Play Data Safety section, Apple App Store privacy labels). Please have it reviewed before this goes live, and update the effective date above.
 
 ---
 
 ## 1. Who we are
 
-Jib is developed by Thomas Horsey. For any privacy questions or requests, contact: tomhorsey93@gmail.com.
+Jib is developed by Thomas Horsey. For any privacy questions or requests, contact: hello@jibapp.xyz.
 
 ## 2. Information we collect
 
@@ -97,4 +96,4 @@ We may update this policy from time to time. Material changes will be reflected 
 
 ## 12. Contact us
 
-Questions about this policy or your data: tomhorsey93@gmail.com.
+Questions about this policy or your data: hello@jibapp.xyz.

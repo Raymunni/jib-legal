@@ -1,8 +1,7 @@
 # Terms of Service for Jib
 
-**Last updated: 20 September 2026**
+**Last updated: 26 September 2026**
 
-> **Before you publish this:** this is a starting draft written specifically around what Jib does today, including its AI-powered planning features. It is not a substitute for review by a qualified lawyer before you launch publicly, particularly around the liability and disclaimer sections (Section 5) and consumer guarantee law in Australia (which can't be excluded by a contract, only appropriately limited). Please have it reviewed, and fill in the bracketed placeholders.
 
 These Terms of Service ("Terms") govern your use of the Jib mobile application (com.jibjobs.app) ("the App"), provided by Thomas Horsey ("we", "us", "our"). By downloading, accessing, or using the App, you agree to these Terms. If you don't agree, please don't use the App.
 
@@ -83,4 +82,4 @@ These Terms are governed by the laws of Queensland, Australia, without regard to
 
 ## 13. Contact us
 
-Questions about these Terms: tomhorsey93@gmail.com.
+Questions about these Terms: hello@jibapp.xyz.
