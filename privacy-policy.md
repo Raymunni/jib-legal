@@ -29,7 +29,7 @@ This is the core of what the app stores, and it can include:
 - Free-form questions and messages you send to the AI planning feature, and the AI's responses
 
 ### 2.3 Automatically collected information
-- Basic device and app information necessary for the app to function (e.g. crash logs, if enabled)
+- **Usage analytics and crash reports.** We use Google Analytics for Firebase and Firebase Crashlytics to understand how the app is used and to fix bugs: for example app opens, screens viewed, which features are used (such as creating or completing a job, using an AI feature, or viewing the subscription screen), purchases and subscription status, crash details, device model, operating system and app version, and approximate location (country/region). These are linked to a random account identifier and an app-instance identifier, not to your name or email address, and are not used for advertising.
 - Location data, only if you grant location permission, and only to resolve your suburb for climate/planning context — we do not track or store precise ongoing location
 
 ### 2.4 Purchases and subscriptions
@@ -61,11 +61,11 @@ Jib uses Anthropic's Claude API to power job planning, step generation, shopping
 ## 6. Sharing your information
 
 We don't sell or rent your information. We share it only with the service providers necessary to run the app:
-- **Google Firebase** (Authentication, Firestore, Storage) — to sign you in (including via Google or Apple) and sync your data
+- **Google Firebase** (Authentication, Firestore, Storage, Google Analytics for Firebase, Crashlytics) — to sign you in (including via Google or Apple), sync your data, measure app usage and diagnose crashes
 - **Apple** — only if you choose Sign in with Apple, to authenticate you
 - **Anthropic** — to power AI planning features, as described in Section 4
 - **Google Places / geocoding services** — to resolve suburb and location information
-- **RevenueCat** — to manage subscription and credit purchases, as described in Section 2.4
+- **RevenueCat** — to manage subscription and credit purchases, as described in Section 2.4. RevenueCat receives your random account identifier so purchases can be matched to your account, and shares purchase events (such as a trial starting or a subscription renewing) with our Google Analytics for Firebase property.
 
 We may also disclose information if required by law, or to protect the rights, safety, or property of Jib, our users, or others.
 
