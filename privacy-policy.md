@@ -1,6 +1,6 @@
 # Privacy Policy for Jib
 
-**Last updated: 26 September 2026**
+**Last updated: 27 September 2026**
 
 This policy explains what information Jib ("the App", "we", "us") collects, how it's used, and the choices you have. It applies to the Jib mobile application, published under the package name `com.jibjobs.app`, and to Jib on the web at [jibapp.xyz/web](https://jibapp.xyz/web/), which lets you sign in and manage the same account from a browser.
 
@@ -25,8 +25,11 @@ This is the core of what the app stores, and it can include:
 - House, space, and job details you enter (names, descriptions, notes, recurrence schedules)
 - Photos you take or upload of your house, spaces, and jobs, including "before and after" photo pairs
 - Shopping list items, including any retailer names or links you enter
+- Your inventory: the tools and materials you list, or that the AI lists from a photo of your garage, shed or a receipt
 - Your suburb/location, entered manually or resolved from your device's location (used to generate location-aware advice — see Section 4)
 - Free-form questions and messages you send to the AI planning feature, and the AI's responses
+- Jobs you add by voice: when you tap the microphone, your phone's own speech recognition service (Apple's on iPhone, Google's on Android) turns what you say into text. Jib receives only that text, never a recording; see Section 4 for what happens to it
+- Tradie briefs: short job descriptions the AI writes for you to send to tradespeople when asking for quotes. A brief is only sent to anyone when you choose to share or copy it
 
 ### 2.3 Automatically collected information
 - **Usage analytics and crash reports.** We use Google Analytics for Firebase and Firebase Crashlytics to understand how the app is used and to fix bugs: for example app opens, screens viewed, which features are used (such as creating or completing a job, using an AI feature, or viewing the subscription screen), purchases and subscription status, crash details, device model, operating system and app version, and approximate location (country/region). These are linked to a random account identifier and an app-instance identifier, not to your name or email address, and are not used for advertising.
@@ -48,14 +51,14 @@ We do not sell your personal information, and we do not use it for advertising. 
 
 ## 4. AI features and third-party processing
 
-Jib uses Anthropic's Claude API to power job planning, step generation, shopping suggestions, and follow-up questions. When you use these features, the relevant job details you've entered (title, description, room, and — where relevant — a photo you've attached) are sent to Anthropic to generate a response. Anthropic's own privacy practices govern how they handle that data in transit and processing; see [Anthropic's Privacy Policy](https://www.anthropic.com/legal/privacy) for details.
+Jib uses Anthropic's Claude API to power job planning, step generation, shopping suggestions, follow-up questions, reading photos of your tools, writing tradie briefs, and turning jobs you add by voice into job entries. When you use these features, the relevant details (such as a job's title, description, room and house details, the text of what you said, and — where relevant — a photo you've attached) are sent to Anthropic to generate a response. Anthropic's own privacy practices govern how they handle that data in transit and processing; see [Anthropic's Privacy Policy](https://www.anthropic.com/legal/privacy) for details.
 
 **Important — AI-generated content is not professional advice.** The steps, material suggestions, cost estimates, and safety warnings the AI provides are generated automatically and may be incomplete, inaccurate, or fail to identify every risk specific to your property. AI-generated safety warnings are a helpful prompt, not a substitute for judgment or professional inspection. See the in-app Terms of Service for the full disclaimer on this — it matters, and we'd rather say it twice than not enough.
 
 ## 5. Where your information is stored
 
 - **On your device:** house, space, job, and shopping data, and photos, are stored locally on your device at all times.
-- **In the cloud (only if signed in):** if you sign in — with Google, Apple, or email/password — this same data is also synced to Google Firebase services (Firestore for structured data, Firebase Storage for photos) so it's available if you switch devices or reinstall the app. This data is associated with your account and is not accessible to other users.
+- **In the cloud (only if signed in):** if you sign in — with Google, Apple, or email/password — this same data is also synced to Google Firebase services (Firestore for structured data, Firebase Storage for photos) so it's available if you switch devices or reinstall the app. This data is associated with your account and is not accessible to other users, except people you choose to share a house with (see Section 6.1).
 - **Location/suburb lookups:** resolving a suburb from your device location or a text search uses Google's geocoding and Places services, and (for AI-assisted matching) Anthropic's API. Neither retains this beyond what's needed to return a result.
 
 ## 6. Sharing your information
@@ -69,12 +72,21 @@ We don't sell or rent your information. We share it only with the service provid
 
 We may also disclose information if required by law, or to protect the rights, safety, or property of Jib, our users, or others.
 
+### 6.1 Shared houses
+You can share a house with people you choose, such as a partner or housemate, by sending them an invite code. Codes expire after 7 days.
+- **What they see:** everyone in a shared house can see and edit everything in that house: its details, spaces, jobs, photos, shopping list and inventory. They also see the first name on each member's account. Nothing from your other houses is shared.
+- **Where it's kept:** a shared house is stored in Google Firebase (Firestore and Storage) so all its members can reach it, and each member's phone keeps a copy.
+- **Leaving and removing:** any member can leave a shared house, and the person who shared it can remove members or stop sharing at any time. Whoever leaves, or is removed, loses access straight away. Jobs and photos they added stay in the house for the remaining members. If the person who shared it stops sharing, they keep the house and everyone else loses it.
+- **Deleting your account** takes you out of every shared house, and ends sharing for any house you shared.
+
 ## 7. Your choices and rights
 
 - **Access and correction:** you can view and edit almost all of your data directly within the app at any time.
 - **Deletion:** you can delete individual jobs, photos, spaces, or houses from within the app. You can also delete your entire account, which permanently removes your cloud-synced data, from Settings.
 - **Local-only use:** you can use the app without signing in, in which case no data leaves your device.
 - **Location permission:** you can decline or revoke location permission at any time in your device settings; the app will fall back to manual suburb search.
+- **Microphone permission:** only needed to add jobs by voice. You can decline or revoke it at any time in your device settings; everything else works without it.
+- **Shared houses:** leave a shared house, or stop sharing one, from Settings at any time.
 
 If you're in the EU/UK, you also have rights under GDPR (access, rectification, erasure, portability, and objection to processing) — contact us using the details in Section 1 to exercise these. If you're in Australia, we aim to handle your information consistently with the Australian Privacy Principles.
 
